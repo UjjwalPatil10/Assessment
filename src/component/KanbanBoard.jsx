@@ -536,7 +536,11 @@ export default function KanbanBoard() {
         }
         .col-header { display:flex; align-items:center; gap:8px; margin-bottom:12px; }
         .col-dot    { width:9px; height:9px; border-radius:50%; flex-shrink:0; }
-        .col-title  { font-size:11px; font-weight:800; text-transform:uppercase; letter-spacing:1.2px; flex:1; }
+        .col-title  {
+          font-size:11px; font-weight:800; text-transform:uppercase; letter-spacing:1.2px; flex:1;
+          color:var(--col-accent);
+          text-shadow: 0 0 18px color-mix(in srgb, var(--col-accent) 40%, transparent);
+        }
         .col-badge  { font-size:11px; padding:2px 8px; border-radius:20px; font-weight:700; }
 
         .col-body { min-height:80px; }
