@@ -11,8 +11,8 @@ function App() {
 
   return (
     <>
-    {/* <KanbanBoard/> */}
-    <DataDashboard/>
+    <KanbanBoard/>
+    {/* <DataDashboard/> */}
     </>
   )
 }
